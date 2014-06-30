@@ -5,6 +5,7 @@ from . import constants as c
 def main():
 	runtime = tools.Control("yo", c.MAINMENU)
 	runtime.setup_state(build_dict())
+	runtime.set_state(c.MAINMENU)
 	runtime.main()
 
 
