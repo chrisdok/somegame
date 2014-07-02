@@ -1,3 +1,5 @@
+"""Initializes pygame and sets up the window."""
+
 import pygame as py
 from . import tools
 from . import constants as c
